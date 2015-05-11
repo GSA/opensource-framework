@@ -96,4 +96,4 @@ Internally to the project, procedures for handling community feedback must be es
 Additionally, depending on the nature of the project, alternative channels of communication (such as blogs, social media, and meetups) should be used to highlight certain projects. 
 
 
-We would like to hear from you. To let us know what you would like to see next, [click here](https://github.com/GSA/openIAE/issues).
+We would like to hear from you. To let us know what you would like to see next, [click here](https://github.com/GSA/opensource-framework/issues).
