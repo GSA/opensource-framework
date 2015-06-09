@@ -78,7 +78,15 @@ What is Github?
 GitHub is a third-party website that offers code repositories that developers can use to collaborate on software development projects in real-time. GitHub also provides social networking features that allow developers to follow open source projects, share code and learn how code changes are made throughout the development process. GitHub is so named because it utilizes the open source version control system (VCS) known as Git. There are many videos on how to use Github on [YouTube] (https://www.youtube.com/results?search_query=github) and on [Github] (https://github.com/).
 
 ## GSA's Account on GitHub
-GitHub offers free public repositories for open source projects as well as subscription-based private repositories for closed projects. The GSA has created an organization account with GitHub, which includes a limited number of private repositories and unlimited public repositories. All GSA staff interested in using GitHub must utilize the agency account rather than creating accounts for individual offices, programs or projects.
+GitHub offers free public repositories for open source projects as well as subscription-based private repositories for closed projects. The GSA has created an organization account with GitHub, which includes a limited number of private repositories and unlimited public repositories. All GSA staff are encouraged to use GSA’s agency GitHub account for their projects if the account meets security, branding and other needs. There are valid reasons, however, not to use the GSA account:
+
+1. A program office will benefit from having their own branding (including organization avatar, contact email, URL, etc.), rather than the generic GSA logo and contact information.
+2. A program team may have multiple repositories that are less confusing to stakeholders and contributors to group together, without being lost in a sea of generic GSA repositories.
+3. A program team may have higher security needs for particular repositories that merit a narrower range of user accounts with access to those repositories than those authorized to access @GSA repos.
+4. A program team may wish to administer permissions for outside contributors differently than @GSA at large.
+5. A program team may desire more flexibility in how they work, without needing to seek permission from @GSA Owners or Administrators to create and administer teams.
+
+More guidance on when exactly to use the @GSA account is coming soon.
 
 ### Communications
 Establishing a Community of Interest for the open source project is vital to its success. It works both ways; having an engaged community reviewing and commenting on code serves as an incentive to develop high quality code and the distributed model provides for rapid discovery and patching of bugs.
