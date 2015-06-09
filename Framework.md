@@ -44,13 +44,20 @@ The biggest concern most organizations have with using Open Source is that often
 
 ## Principles of Open Source Software Risk Management
 Never at any time should configuration information such as IP addresses, etc. be published to the public. An organization's open-source plan will need to specifically address what tools and procedures will be employed to create and manage risk associated with the public branch of the code. Here are specific areas to pay attention to when determining what comprises the public branch of the code:
-Physical configuration - including items behind reverse proxies firewalls
-Code logic - this includes logic and/or business rules that are not for public consumption. For example, no hard coded rules that would expose information that is not appropriate for the public. Another example is hard coding an item that requires elevated access to view.
-Code and Data - the code must be scanned and virus-free. There should be no vulnerability that would create a loophole. For example usernames, machine names, keys, passwords should not be revealed in the code or in the data. Careful attention must be paid to not release PII information to the public. 
-Consistently track all the software libraries and versions that are utilized in the environment. This way when a vulnerability is discovered there is one source to go to see what areas of the project could be affected
-Establish a security audit process ensuring the code is free of security errors such as inadequate buffer protection, poor input validation, session management problems, etc.
-Coding standards must be developed to assure implementation consistency and streamline review processes
-Operations scanning - security scanning can be inherited from traditional security review processes
+
+1. Physical configuration - including items behind reverse proxies firewalls
+2. Code logic - this includes logic and/or business rules that are not for public consumption. For example, no hard coded rules that would expose information that is not appropriate for the public. Another example is hard coding an item that requires elevated access to view.
+
+GitHub has resources [here] (https://help.github.com/articles/remove-sensitive-data/) to aid in removing sensitive data.
+Here is another other good [article] (http://blog.nortal.com/mining-passwords-github-repositories/) on protecting data and another article [specific to github] (http://www.securityweek.com/github-search-makes-easy-discovery-encryption-keys-passwords-source-code).
+
+The following applies to both closed source and open source projects and serves as a reminder to us all for best practices:
+
+1. Code and Data - the code must be scanned and virus-free. There should be no vulnerability that would create a loophole. For example usernames, machine names, keys, passwords should not be revealed in the code or in the data. Careful attention must be paid to not release PII information to the public. 
+2. Consistently track all the software libraries and versions that are utilized in the environment. This way when a vulnerability is discovered there is one source to go to see what areas of the project could be affected
+Establish a security audit process ensuring the code is free of security errors such as inadequate buffer protection, poor input validation, session management problems, etc..
+3. Coding standards must be developed to assure implementation consistency and streamline review processes.
+4. Operations scanning - security scanning can be inherited from traditional security review processes.
 
 The open-source plan must specify the use of and employ the tools and procedures described above to ensure that no one can use the code to access unauthorized information. Open sourced code must be devoid of proprietary information or specific data access channel or protocol information.
 
