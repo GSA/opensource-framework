@@ -1,7 +1,7 @@
 # opensource-framework
 Open Source Framework for GSA - use this framework as a reference when open sourcing your code base.
 
-This framework is a draft and not yet approved for GSA-wide use. Please comment and let us know your feedback!
+This framework has been approved for GSA-wide use. However, please continue to comment and let us know your feedback!
 
 ##Tips to give us feedback on the GSA Open Source Framework: <br>
 1. Go [here](https://github.com/GSA/opensource-framework/blob/master/Framework.md) to find it. <br>
